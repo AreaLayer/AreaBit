@@ -1,7 +1,7 @@
 "homepage":
 "name": "AreaBit"
-"version: "1.0.0"
+"version: "1"
 "tags": ["Bitcoin", "LIghtning Network", "Loans", "RGB"]
 
 "RGB-core"
-"version: "9.0"
+"version: "9"
