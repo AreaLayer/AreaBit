@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Aave Loan Interface</title>
+  </head>
+  <body>
+    <h1>Aave Loan Interface</h1>
+    <form>
+      <label for="collateral">Collateral:</label>
+      <select name="collateral" id="collateral">
+        <option value="ETH">Ethereum (ETH)</option>
+        <option value="BTC">Bitcoin (BTC)</option>
+        <option value="USDC">USD Coin (USDC)</option>
+      </select>
+      <br>
+      <label for="borrow">Borrow:</label>
+      <select name="borrow" id="borrow">
+        <option value="DAI">Dai (DAI)</option>
+        <option value="USDT">Tether (USDT)</option>
+        <option value="AAVE">Aave (AAVE)</option>
+      </select>
+      <br>
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" name="amount" min="1" step="1">
+      <br>
+      <label for="term">Loan Term:</label>
+      <select name="term" id="term">
+        <option value="1">1 month</option>
+        <option value="3">3 months</option>
+        <option value="6">6 months</option>
+      </select>
+      <br>
+      <button type="submit">Create Loan</button>
+    </form>
+    <h2>Loan Summary</h2>
+    <p>Market Conditions: [display current market conditions]</p>
+    <p>Maximum Amount: [display maximum amount based on collateral and market conditions]</p>
+    <p>Interest Rate: [display interest rate based on loan term]</p>
+    <p>Repayment Amount: [display repayment amount based on selected loan term and amount]</p>
+  </body>
+</html>
