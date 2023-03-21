@@ -1,6 +1,6 @@
 
 use bitcoin_script::bitcoin_script;
-use rgb::schema::ALuVM
+use rgb::schema::mType
 
 
 let htlc_script = bitcoin_script! {
