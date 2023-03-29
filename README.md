@@ -11,7 +11,7 @@ Lending Bitcoin on RGB Network
 
 4.Generate Loan asset (e.g USD)
 
-5. Generate the borrower and lender addresses
+5.Generate the borrower and lender addresses
 
 6.Fund the borrower address
 
