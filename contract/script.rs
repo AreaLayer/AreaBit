@@ -70,5 +70,8 @@ fn main() {
     );
 
     // Generate the loan redemption transition
-    let redemption = loan_asset.rede
+    let redemption = loan_asset.rede(
+    borrow_address.script_pubkey()
+    lender_address.script_pubkey(),
+    );
 
