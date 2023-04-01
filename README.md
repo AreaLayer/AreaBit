@@ -15,7 +15,7 @@ Scenario B
 
 Discreet Log Contracts allow two parties to enter into a smart contract without revealing any sensitive information to each other.
 
-To add DLCs to this code, you would need to modify the LoanSchema to include fields for the DLC parameters such as the oracle public key, the event descriptor, and the outcomes. You would also need to modify the LoanContract to include the DLC logic for the different stages of the loan contract such as the loan issuance, transfer, and redemption.
+DLCs to this code, you would need to modify the LoanSchema to include fields for the DLC parameters such as the oracle public key, the event descriptor, and the outcomes. You would also need to modify the LoanContract to include the DLC logic for the different stages of the loan contract such as the loan issuance, transfer, and redemption.
 
 Once you have defined the DLC schema and contract, you can use the RGB library to generate the necessary DLC transactions and signatures. You would also need to integrate the oracle data source to retrieve the outcome of the event, which will determine the final payout to the parties involved.
 
